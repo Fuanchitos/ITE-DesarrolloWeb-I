@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.title {
+  background-color: rgb(139, 141, 134);
+  font-size: 24px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.group {
+  margin: 10px;
+}
+
+.group label {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.group {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 18px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Agregar sombra */
+  background-color: #363b41;
+  
+}
+
+button {
+  background-color: rgb(0, 195, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: block;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: rgb(109, 126, 126);
+  
+}
+
+input{
+  box-shadow: #333;
+}
