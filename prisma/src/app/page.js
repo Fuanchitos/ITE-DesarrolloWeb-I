@@ -1,26 +1,18 @@
 import React from "react";
+import Formulario from "@/components/Formulario";
+import Header from "@/components/Header";
 
-async function obtenerFutbolistas(){
-  const futbolistas = await fetch('http://localhost:3000/api/futbolistas')
 
-  return futbolistas.json()
-}
-
-const HomePage = async () => {
-  const data = await obtenerFutbolistas()
+const HomePage = () => {
   return (
-    <main>
-      {data.map(futbolistas =>(
-        <div>
-        <p>{futbolistas.nombre}
-        {futbolistas.nivel}</p>
-      </div>
-      ) 
-      
-    )
-    }
-    </main>
-  )
-}
+    <div> 
+        <Header/>
+        <Formulario/>
+        
+    </div>
+  );
+};
 
-export default HomePage
+
+export default HomePage;
+
