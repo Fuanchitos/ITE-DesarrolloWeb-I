@@ -1,0 +1,48 @@
+/* Estilos para el contenedor principal */
+.App {
+    background-color: #f0f0f0;
+    padding: px;
+  }
+  
+  /* Estilos para el botón "Añadir" */
+  .btn-dark {
+    
+    color: #fff; /* Color del texto */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para la tabla */
+  .table {
+    width: 100%;
+    
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ccc; /* Borde de las celdas */
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .table th {
+    color: #000000; /* Color del texto del encabezado */
+  }
+  
+  /* Estilos para los botones "Editar" y "Eliminar" en las filas de la tabla */
+  button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+ 
+  /* Estilos para las filas pares de la tabla */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para las filas impares de la tabla */
+  tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  

@@ -3,7 +3,7 @@ import { prisma } from '@/libs/prisma'
 
 //http://localhost:3000/api/futbolistas
 //Regresa la lista de futbolistas
-export  async function GET(){
+export async function GET(){
     try{
         const futbolistas = await prisma.futbolistas.findMany()
 
